@@ -1,0 +1,17 @@
+.timer-display {
+    font-size: 48px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #333;
+    animation: blink 1s step-end infinite;
+  }
+  
+  @keyframes blink {
+    from, to {
+      color: #333;
+    }
+    50% {
+      color: #FF512F;
+    }
+  }
+  

@@ -1,0 +1,21 @@
+.controls-container {
+    margin: 20px 0;
+  }
+  
+  .control-button {
+    margin: 5px;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 8px;
+    background: #6DD5FA;
+    color: white;
+    cursor: pointer;
+    transition: transform 0.2s ease, background 0.3s;
+  }
+  
+  .control-button:hover {
+    background: #00C9FF;
+    transform: scale(1.1);
+  }
+  
